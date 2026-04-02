@@ -1,28 +1,28 @@
 class PrettyLog < Formula
   desc "A fast log prettifier for JSON logs with streaming support"
   homepage "https://github.com/r0rr3/pretty-log"
-  version "0.0.4-fix1"
+  version "0.0.4-fix4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix1/pretty-log-aarch64-apple-darwin.tar.gz"
-      sha256 "0bb15bb967e55b8b37f2aba7762d75419f535c4c1f8834f32ac822fd5edc2f17"
+      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix4/pretty-log-aarch64-apple-darwin.tar.gz"
+      sha256 "7329d0225de5b0890c6c1eb41853d99797b07afebb71953560b85b8682591e26"
     end
     on_intel do
-      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix1/pretty-log-x86_64-apple-darwin.tar.gz"
-      sha256 "1f4abb677093d43a438b38038c192eccdbeffa06bd6ab88f13919cb308b9aa5b"
+      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix4/pretty-log-x86_64-apple-darwin.tar.gz"
+      sha256 "62423c8f78503c2fb71a40f02568b81dcc291c3a7dea8b15e4de27bf59ce70ab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix1/pretty-log-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cf05bf7957bb6b3dfb0a21e1c790d33bee6ab2c048a5fe4cb86ba614e0b4b41b"
+      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix4/pretty-log-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3d7862305b52534cf351874f1a16388f1b42f23962b073167aabd8c6e579d243"
     end
     on_intel do
-      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix1/pretty-log-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "74de16b2efbb494ea645244fcd51cec5b523546f4e7d5d1ca843ed7c7b62d9f6"
+      url "https://github.com/r0rr3/pretty-log/releases/download/v0.0.4-fix4/pretty-log-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f16d2fe776caf78210172caad6d7af78bdb47737262e2197f2da467ade539b9c"
     end
   end
 
